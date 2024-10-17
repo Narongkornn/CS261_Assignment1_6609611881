@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+          <h2 class="active"> Sign In </h2>
+          <!-- <h2 class="inactive underlineHover">Sign Up </h2> -->
+      
+          <!-- Icon -->
+          <div class="fadeIn first">
+            <img src="img/logo_TU.png" id="icon" alt="User Icon" />
+          </div>
+      
+          <!-- Login Form -->
+          <form id="loginForm">
+            <!-- <div class="username"><H6>Username</H6></div> -->
+            <input type="text" id="username" class="fadeIn second" name="username" placeholder="Username" required>
+            <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password" required>
+            <button type="submit" class="fadeIn fourth" value="Log In">Login</button>
+          </form>
+          <div id="message"></div>
+      
+          <!-- Remind Passowrd -->
+          <p id="message"></p>
+          <!-- <div id="formFooter">
+            <a class="underlineHover" href="#">Forgot Password?</a>
+          </div> -->
+      
+        </div>
+      </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
